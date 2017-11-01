@@ -1,7 +1,18 @@
-# Watson Conversation Service Chatbot Demo
+# Tech Company Oracle
+  Modified the Car discovery/conversation integration to handle queries about tech companies. 
+  (Modified UI/Data Set/Intents/Dialog Tree)
+  Possible Questions:
+  1. What is (company)?
+  2. Who founded (company)?
+  3. When did (company) go public?
+  4. What is the highest revenue company?
+  and many more
+  
+  # Currently only Google, Apple, Microsoft, Facebook, and Oracle are supported #
+ 
+  
 
-This demo is based off of the [Watson Practitioner Assistant] (https://github.ibm.com/watson-practice/WEX-Practitioner-Assistant)
-
+############################## Deployment Details from IBM below ###############################
 ## Running locally ##
 
 
