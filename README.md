@@ -12,7 +12,7 @@
  
   
 
-############################## Deployment Details from IBM below ###############################
+# Deployment Details from IBM below #
 ## Running locally ##
 
 
