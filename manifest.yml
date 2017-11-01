@@ -1,0 +1,19 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: VirtualAgentProj1
+  host: Sajiel
+  disk_quota: 2048M
+  services:
+  - Discovery-First-App
+  - Conversation-chatbot
+  - VirtualAgentProj1-cloudantNoSQLDB
+  env:
+    workspace_id: 9b942ab0-bf1c-4bf1-a5b8-2d2dc962be2d
+    collection_id: d1c5b44b-37eb-4d05-9a24-475cea598794
+    environment_id: 76e0a512-497b-4db4-83d4-eab8113d9c94
+    intent_confidence: '.75'
+    conversation_version: '2017-04-21'
+    discovery_version: '2017-10-28'
